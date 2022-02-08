@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         UserServiceImpl num = new UserServiceImpl();
         num.createUsersTable();
-        num.saveUser("Islam","Dzeytov", (byte) 21);
+        num.saveUser("Islam","Dzeytov",(byte) 21);
         num.saveUser("Nikita","Lyapis-Trubetskoy", (byte) 40);
         num.saveUser("Daddy","Vladdy", (byte) 63);
         num.saveUser("Leo","Messi", (byte) 34);
@@ -20,6 +20,5 @@ public class Main {
         }
         num.cleanUsersTable();
         num.dropUsersTable();
-        // реализуйте алгоритм здесь
     }
 }
